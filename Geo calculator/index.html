@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Calculator Using JavaScript</title>
+    <link rel="stylesheet" href="../Geo calculator/style.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h1 class="header-title">Welcome To Geo Calculator</h1>
+        </center>
+    </header>
+    <main class="main-container">
+        <section class="cards">
+            <div class="tri-card">
+                <p>Find The Area of a triangle using Geo Calculator</p>
+                <p>Formula of triangle area: 1/2 x Base x Height</p>
+                <div>
+                    <input type="text" id="base-input" placeholder="Triangle Base">
+                </div>
+                <div>
+                    <input type="text" id="height-input" placeholder="Triangle Height">
+                </div>
+                <div>
+                    <button id="tri-calc">Calculate Area</button>
+                </div>
+            </div>
+
+            <div class="rec-card">
+                <p>Find The Area of a rectangle using Geo Calculator</p>
+                <p>Formula of triangle area: Length x Width</p>
+                <div>
+                    <input type="text" id="length-input" placeholder="Rectangle Length">
+                </div>
+                <div>
+                    <input type="text" id="width-input" placeholder="Rectangle Width">
+                </div>
+                <div>
+                    <button id="rec-calc">Calculate Area</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="history-container">
+            <center><h1 class="history-title">Geo Calculation History</h1></center>
+            <p id="message">No Calculation Added Yet!!</p>
+        </section>
+    </main>
+    <script src="../Geo calculator/app.js"></script>
+</body>
+</html>

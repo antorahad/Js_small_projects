@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.tri-card{
+    width: 40%;
+    background-color: #8062D6;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.tri-card p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+
+input#base-input{
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0 0 15px;
+}
+
+input#height-input{
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0 0 15px;
+}
+
+button#tri-calc{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #82CD47;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.rec-card{
+    width: 40%;
+    background-color: #8062D6;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.rec-card p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+
+input#length-input{
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0 0 15px;
+}
+
+input#width-input{
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0 0 15px;
+}
+
+
+button#rec-calc{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #82CD47;
+    color: #fff;
+    cursor: pointer;
+}
+
+.history-title{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #8062D6;
+    margin: 15px 0;
+}
