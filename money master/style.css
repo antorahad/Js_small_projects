@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DFCCFB;
+}
+
+.first-title{
+    margin: 60px 0;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 15px;
+}
+
+.deposite{
+    width: 250px;
+    background-color: #FD8D14;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.deposite h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.deposite p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+.withdraw{
+    width: 250px;
+    background-color: #525FE1;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.withdraw h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.withdraw p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.balance{
+    width: 250px;
+    background-color: #FC2947;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.balance h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.balance p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 15px;
+}
+
+.deposite-item{
+    background-color: #82CD47;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.deposite-item h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+input#depoiste-input{
+    width: 320px;
+    padding: 12px 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button#deposite-btn{
+    padding: 12px 28px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.withdraw-item{
+    background-color: #614BC3;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.withdraw-item h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+input#withdraw-input{
+    width: 320px;
+    padding: 12px 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+button#withdraw-btn{
+    padding: 12px 28px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+

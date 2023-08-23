@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master ATM system using simple javascript</title>
+    <link rel="stylesheet" href="../money master/style.css">
+</head>
+<body>
+    <main>
+        <center>
+            <h1 class="first-title">Welcome To Money Master</h1>
+        </center>
+        <section class="cards">
+            <div class="deposite">
+                <h3>Deposite</h3>
+                <p><span id="deposite-amount">00.00</span>Tk</p>
+            </div>
+            <div class="withdraw">
+                <h3>Withdraw</h3>
+                <p><span id="withdraw-amount">00.00</span>Tk</p>
+            </div>
+            <div class="balance">
+                <h3>Balance</h3>
+                <p><span id="total-amount">00.00</span>Tk</p>
+            </div>
+        </section>
+        <section class="inputs">
+            <div class="deposite-item">
+                <h4>Please Enter Your Ammount</h4>
+                <div>
+                    <input id="depoiste-input" type="text" placeholder="Ammount of deposite">
+                </div>
+                <div>
+                    <button id="deposite-btn">Deposite</button>
+                </div>
+            </div>
+            <div class="withdraw-item">
+                <h4>Please Enter Your Ammount</h4>
+                <div>
+                    <input id="withdraw-input" type="text" placeholder="Ammount of withdraw">
+                </div>
+                <div>
+                    <button id="withdraw-btn">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../money master/app.js"></script>
+</body>
+</html>
